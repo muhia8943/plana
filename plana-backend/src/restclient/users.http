@@ -1,0 +1,34 @@
+### Register a New User
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "muhia lincoln",
+    "email": "eb2.56060.21@student.chuka.ac.ke",
+    "password": "rootpassword"
+}
+
+###
+
+### Login a User
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "eb1.56060.21@student.chuka.ac.ke",
+    "password": "rootpassword"
+}
+
+###
+
+### Get All Users
+GET http://localhost:3000/api/auth/users
+Content-Type: application/json
+
+###
+
+### Delete a User
+DELETE http://localhost:3000/api/auth/users/8
+Content-Type: application/json
+
+###
